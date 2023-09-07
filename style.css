@@ -107,3 +107,64 @@
        padding: 10px;
 
     }
+
+    .second-section .right-half #our-purpose-text {
+        
+    }
+
+
+
+
+                 /* 3rd section  */
+
+
+
+
+
+                  .third-section{
+
+
+                  }
+
+                  .third-section .left-half{
+
+                        
+                    flex-direction: column;
+
+
+                  }
+                  .third-section .right-half{
+
+                        
+               display: flex;
+
+               justify-content: center;
+
+                
+
+
+                  }
+                  .third-section .right-half img{
+
+                    width: 200px;
+
+                    display: block;
+                    margin-top: 40px;
+
+                
+                  }
+
+
+
+                #funny-vid-color{
+
+                    color:#F948B2;
+
+                }
+
+                .third-section .right-half  .clm {
+                   
+                    
+            
+                   
+                }
