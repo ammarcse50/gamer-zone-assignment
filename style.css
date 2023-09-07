@@ -196,7 +196,7 @@
         }
 
 
-        .fourth-section.right-half{
+        .fourth-section .right-half{
 
             /* flex-direction: column; */
 
@@ -205,8 +205,7 @@
               background-position: center;
 
               background-size: auto;
-               height: 400px;
-               width: 400px;
+              
    
             
           
@@ -215,7 +214,11 @@
              
         }
  
-         .fourth-section #fourth-bg{
+         .fourth-section .right-half #relative-img{
+
+
+            margin-top: 300px;
+            margin-right: 350px;
 
          
 
