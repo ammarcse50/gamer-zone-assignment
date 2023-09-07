@@ -1,243 +1,160 @@
-.banner-section{
+.banner-section {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #ffffff;
+}
+#g-color,
+#gamer-color {
+  color: #ff42a5;
+}
+#b-color {
+  color: black;
+}
+.left-half {
+  display: flex;
+  align-items: center;
+}
+.right-half {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+/* 1st section  */
+.first-section {
+  background-image: url("./images/Group\ 14.png");
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.first-section .left-half {
+  flex-direction: column;
+}
+.first-section .right-half {
+}
+.first-section #goat-text {
+  color: #f948b2;
+  font-size: 55px;
+  font-weight: 800;
+}
+/* Second section  */
+.second-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.second-section .left-half {
+}
+.second-section .right-half {
+  flex-direction: column;
+  margin-top: 100px;
+}
+#know-more-btn {
+  background-color: #ff42a5;
+  color: white;
+  border-radius: 50px;
+  padding: 10px;
+}
+.second-section .right-half #our-purpose-text {
+}
+/* 3rd section  */
+.third-section {
+}
+.third-section .left-half {
+  flex-direction: column;
+}
+.third-section .right-half {
+  display: flex;
+  justify-content: center;
+}
+.third-section .right-half img {
+  width: 200px;
+  display: block;
+  margin-top: 40px;
+}
+#funny-vid-color {
+  color: #f948b2;
+}
+.third-section .right-half .clm {
+}
+/* FOURTH SECTION  */
+.fourth-section {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  align-items: center;
+}
+.fourth-section .left-half {
+  flex-direction: column;
+}
+.fourth-section .right-half {
+  /* flex-direction: column; */
+  display: block;
+  background-image: url("./Rectangle\ 55.png");
+  background-position: center;
+  background-size: 700px 500px;
+  background-repeat: no-repeat;
+}
+.fourth-section .right-half #relative-img {
+  margin-top: 300px;
+  margin-right: 350px;
+}
+.fourth-section #violet-color {
+  color: #f948b2;
+}
+/* Fifth Section */
+.fifth-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.fifth-section .left-half {
+  display: block;
+  background-image: url("./Rectangle\ 66.png");
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100px;
+  background-position: center;
+}
+.fifth-section .right-half {
+  flex-direction: column;
+}
+.fifth-section .right-half #violet-color {
+  color: #f948b2;
+}
+
+
+footer{
+
+    margin-top: 100px;
     display: flex;
     justify-content: space-evenly;
-    background-color: #ffffff;
+
+    align-items: center;
+
+    background-color: #f948b2;
+
+    color: white;
 }
 
+ footer .left-half{
 
-#g-color, #gamer-color{
-    color:#FF42A5;
-}
+    flex-direction: column;
+ }
 
-#b-color{
+ footer .right-half{
 
-    color:black;
-}
+    
+ }
 
-.left-half{
+ footer button{
+    border-radius: 50px;
+    padding: 10px;
+    margin-top: 100px;
+ }
+
+ footer .sub-left{
+
     display: flex;
-
-    align-items: center;
-}
-
-.right-half{
-
-    display:flex;
-    align-items: center;
-
-    gap: 20px;
-
-}
-
-
-                /* 1st section  */
-
-
-    .first-section{
-                 
-        background-image: url('./images/Group\ 14.png');
-
-         background-repeat: no-repeat;
-         
-         display: flex;
-
-         justify-content: space-evenly;
-         align-items: center;
-
-                }
-
-                .first-section .left-half{
-
-                  
-                   flex-direction: column;
-                 
-
-                }
-
-                .first-section .right-half{
-
-
-                     
-
-                }
-
-
-                .first-section #goat-text{
-                    color: #F948B2;
-                    font-size: 55px;
-                    font-weight: 800;
-                }
-
-
-        
-
-
-
-                 /* Second section  */
-
-
-
-                 .second-section{
-                    display:  flex;
-                    align-items: center;
-                    justify-content: space-evenly;
-                 }
-
-                 .second-section  .left-half{
-
-                 }
-                 .second-section  .right-half{
-
-                    flex-direction: column;
-                          
-                     margin-top: 100px;
-
-
-
-                    
-                 }
-
-
-    #know-more-btn{
-
-        background-color:#FF42A5;
-        color: white;
-
-       border-radius: 50px;
-       padding: 10px;
-
-    }
-
-    .second-section .right-half #our-purpose-text {
-        
-    }
-
-
-
-
-                 /* 3rd section  */
-
-
-
-
-
-                  .third-section{
-
-
-                  }
-
-                  .third-section .left-half{
-
-                        
-                    flex-direction: column;
-
-
-                  }
-                  .third-section .right-half{
-
-                        
-               display: flex;
-
-               justify-content: center;
-
-                
-
-
-                  }
-                  .third-section .right-half img{
-
-                    width: 200px;
-
-                    display: block;
-                    margin-top: 40px;
-
-                
-                  }
-
-
-
-                #funny-vid-color{
-
-                    color:#F948B2;
-
-                }
-
-                .third-section .right-half  .clm {
-                   
-                    
-            
-                   
-                }
-
-
-
-
-                /* FOURTH SECTION  */
-
-
-
-        .fourth-section{
-
-            display: flex;
-
-            justify-content: space-evenly;
-
-            margin-top: 100px;
-
-
-            align-items: center;
-        }
-
-
-
-        .fourth-section .left-half{
-
-            flex-direction: column;
-
-
-
-                                      
-             
-        }
-
-
-        .fourth-section .right-half{
-
-            /* flex-direction: column; */
-
-              display: block;
-               background-image: url("./Rectangle\ 55.png");
-              background-position: center;
-
-              background-size: 700px 500px;
-
-              background-repeat: no-repeat;
-              
-   
-            
-          
-             
-
-             
-        }
- 
-         .fourth-section .right-half #relative-img{
-
-
-            margin-top: 300px;
-            margin-right: 350px;
-
-         
-
-            
-         }
-
-        
-
-
-        .fourth-section #violet-color{
-
-            color: #F948B2;
-        }
-
-  
+    justify-content: space-between;
+ }
